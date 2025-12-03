@@ -1,0 +1,17 @@
+.spacer{
+  flex: 1 1 auto;
+}
+
+.container-links{
+  display: flex;
+  gap: 24px;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  color: bisque;
+  text-decoration: none;
+}
