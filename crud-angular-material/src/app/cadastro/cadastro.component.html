@@ -45,6 +45,7 @@
                   type="text"
                   placeholder="Ex: 000.000.000-00"
                   matInput
+                  mask="000.000.000-00"
                   name="cpf"
                   [(ngModel)]="cliente.cpf"
                 />
@@ -60,6 +61,7 @@
                   type="text"
                   placeholder="Escolha a sua data de nascimento"
                   matInput
+                  mask="00/00/0000"
                   name="dataNascimento"
                   [(ngModel)]="cliente.dataNascimento"
                 />
@@ -70,6 +72,16 @@
 
         <mat-card-actions>
           <div class="container-buttons">
+            <a
+              routerLink="/consulta"
+              class="btn"
+              mat-flat-button
+              style="background: rgb(87, 81, 81); color: bisque"
+            >
+              <mat-icon fontIcon="arrow_back" />
+              Voltar
+          </a>
+
             <button
               type="button"
               class="btn"
@@ -81,15 +93,17 @@
               Limpar
             </button>
 
-            <button class="btn" mat-flat-button color="primary">
-              <mat-icon fontIcon="refresh" />
-              Atualizar
-            </button>
-
-            <button type="submit" class="btn" mat-flat-button color="primary">
-              <mat-icon fontIcon="save" />
-              Salvar
-            </button>
+            @if (!atualizando) {
+              <button type="submit" class="btn" mat-flat-button color="primary">
+                <mat-icon fontIcon="save" />
+                Salvar
+              </button>
+            }@else {
+              <button type="submit" class="btn" mat-flat-button color="primary">
+                <mat-icon fontIcon="refresh" />
+                Atualizar
+              </button>
+            }
           </div>
         </mat-card-actions>
       </mat-card>

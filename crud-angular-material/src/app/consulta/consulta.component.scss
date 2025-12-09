@@ -1,0 +1,20 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+form{
+  margin-top: 20px;
+}
+
+.titulo{
+  color: bisque;
+  margin-bottom: 10px;
+}
+
+.container-acoes{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
