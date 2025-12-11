@@ -68,6 +68,32 @@
               </mat-form-field>
             </div>
           </div>
+
+          <div fxLayout="row" fxLayoutAlign="start" fxLayoutGap="16px">
+            <div fxLayout="column" fxFlex="400px">
+              <mat-form-field class="full-width">
+                <mat-label>UF: *</mat-label>
+                <mat-select [(value)]="cliente.uf" (selectionChange)="carregarMunicipios($event)">
+                  <mat-option *ngFor="let estado of estados" [value]="estado.sigla">
+                    {{estado.sigla}} - {{estado.nome}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+
+          <div fxLayout="row" fxLayoutAlign="start" fxLayoutGap="16px">
+            <div fxLayout="column" fxFlex="400px">
+              <mat-form-field class="full-width">
+                <mat-label>Municipio: *</mat-label>
+                <mat-select [(value)]="cliente.municipio">
+                  <mat-option *ngFor="let municipio of municipios" [value]="municipio.nome">
+                    {{municipio.nome}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
         </mat-card-content>
 
         <mat-card-actions>

@@ -5,8 +5,10 @@ export class Cliente{
   nome?: string;
   email?: string;
   cpf?: string;
-  dataNascimento?: string
-  isDeletando: boolean = false
+  dataNascimento?: string;
+  isDeletando: boolean = false;
+  uf?: string;
+  municipio?: string;
 
   static newCliente(){
     const cliente = new Cliente();
