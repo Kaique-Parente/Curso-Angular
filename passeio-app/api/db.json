@@ -1,0 +1,45 @@
+{
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "nova categoria",
+      "descricao": "Lugares para fazer compras e passear"
+    },
+    {
+      "id": "5fbd",
+      "nome": "Praias",
+      "descricao": "Lugares para nadar com a família."
+    },
+    {
+      "id": "3",
+      "nome": "Parques",
+      "descricao": "Lugares para família passear"
+    }
+  ],
+  "lugares": [
+    {
+      "id": "e39d",
+      "nome": "Parque Ibirapuera",
+      "categoria": "Parques",
+      "localizacao": "São Paulo",
+      "urlFoto": "https://www.transmineracao.com.br/assets/img/ibirapuera/1.jpg",
+      "avaliacao": "4"
+    },
+    {
+      "id": "ae41",
+      "nome": "Jalapão",
+      "categoria": "Praias",
+      "localizacao": "Tocantins",
+      "urlFoto": "https://s3.sa-east-1.amazonaws.com/site-canopus/blog_canopus_destino_brasileiro_jalapao_f982910aad.jpeg",
+      "avaliacao": "3"
+    },
+    {
+      "id": "22d3",
+      "nome": "Maragogi",
+      "categoria": "Praias",
+      "localizacao": "Alagoas",
+      "urlFoto": "https://s3.sa-east-1.amazonaws.com/site-canopus/blog_canopus_dica_maragogi_viagem_brasil_c160f9d467.jpeg",
+      "avaliacao": "5"
+    }
+  ]
+}
