@@ -2,13 +2,14 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Lugar } from './lugar';
 import { Observable } from 'rxjs';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class LugarService {
 
-  BASE_URL : string = "http://localhost:3000/lugares";
+  BASE_URL : string = environment.apiUrl + '/lugares';
 
   constructor(private http: HttpClient) { }
 
