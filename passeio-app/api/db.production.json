@@ -1,0 +1,29 @@
+{
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "nova categoria",
+      "descricao": "Lugares para fazer compras e passear"
+    },
+    {
+      "id": "5fbd",
+      "nome": "Praias",
+      "descricao": "Lugares para nadar com a família."
+    },
+    {
+      "id": "3",
+      "nome": "Parques",
+      "descricao": "Lugares para família passear"
+    }
+  ],
+  "lugares": [
+    {
+      "id": "ae41",
+      "nome": "Praia do Encanto",
+      "categoria": "Praias",
+      "localizacao": "Tocantins",
+      "urlFoto": "https://s3.sa-east-1.amazonaws.com/site-canopus/blog_canopus_destino_brasileiro_jalapao_f982910aad.jpeg",
+      "avaliacao": "3"
+    }
+  ]
+}
