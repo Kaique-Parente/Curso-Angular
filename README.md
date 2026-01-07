@@ -27,7 +27,8 @@ Este repositório reúne atividades desenvolvidas durante o curso, abordando des
 - Reactive Forms  
 - Build e Deploy com Docker  
 - Arquitetura de Micro-Frontends  
-- Module Federation  
+- Module Federation
+- Chart JS
 - Angular 20  
 
 
