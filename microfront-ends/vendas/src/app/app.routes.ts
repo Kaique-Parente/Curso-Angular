@@ -13,6 +13,14 @@ export const routes: Routes = [
     }).then( m => m.App)
   },
   {
+    path: 'carrinho',
+    loadComponent: () => loadRemoteModule({
+      type: 'module',
+      remoteEntry: 'http://localhost:4201/remoteEntry.js',
+      exposedModule: './Carrinho'
+    }).then( m => m.Carrinho)
+  },
+  {
     path: 'grafico',
     loadComponent: () => loadRemoteModule({
       type: 'module',
