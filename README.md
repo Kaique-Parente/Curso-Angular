@@ -84,8 +84,3 @@ $ ng serve --open
 # Abra seu navegador e acesse:
 $ http://localhost:4200
 ```
-
-
-## :memo: Licença
-
-Este projeto está licenciado sob a [MIT License](https://github.com/Kaique-Parente/Curso-Angular/blob/main/LICENSE). 📜
